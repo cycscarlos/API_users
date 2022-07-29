@@ -1,0 +1,22 @@
+img {
+  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+h2,
+a {
+  color: #29445a;
+}
+p {
+  font-size: 1.5em;
+  margin-top: 2rem;
+  color: #29445a;
+}
+.container {
+  width: 60%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+  color: white;
+  text-align: center;
+  margin:0 auto;
+}
