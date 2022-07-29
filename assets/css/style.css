@@ -9,6 +9,11 @@ p {
   font-size: 1.5em;
   margin-top: 2rem;
   color: #29445a;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+p:hover {
+  transform: scale(1.1);
 }
 .container {
   width: 60%;
@@ -18,5 +23,5 @@ p {
   grid-gap: 5px;
   color: white;
   text-align: center;
-  margin:0 auto;
+  margin: 0 auto;
 }
