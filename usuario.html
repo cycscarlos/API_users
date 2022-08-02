@@ -9,29 +9,37 @@
       href="assets/img/favicon.png"
       type="image/x-icon"
     />
+    <link rel="stylesheet" href="header/header.css" />
     <link rel="stylesheet" href="assets/css/usuario.css" />
     <title>API dataUser | JSONPlaceholder</title>
-    <!--* header -->
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-      .header {
-        width: 100% !important;
-        height: 6rem !important;
-      }
-    </style>
   </head>
   <body>
-    <!--* header -->
-    <iframe
-      class="header"
-      src="./header/header.html"
-      frameborder="0"
-      scrolling="no"
-    ></iframe>
+    <!--* header Component -->
+    <header class="header">
+      <div class="header-container">
+        <div class="profile">
+          <div class="logoFoto">
+            <a href="#" class="logo">
+              <img
+                width="96"
+                height="72"
+                src="header/logo.jpg"
+                alt="Software Developer"
+              />
+            </a>
+          </div>
+
+          <div class="logotext">
+            zCoder!<br /><span>...on Social Media</span>
+          </div>
+        </div>
+
+        <div class="phone">
+          <i class="fa fa-phone" aria-hidden="true">+58 0414 324 63 96</i>
+          <p class="paragraph">Carlos Colmenares A.</p>
+        </div>
+      </div>
+    </header>
 
     <!--_ Main section -->
     <div class="container" id="container"></div>
